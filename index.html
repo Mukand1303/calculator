@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" type="png"
+    href="https://www.freeiconspng.com/thumbs/calculator-icon/calculator-icon-4.png">
+</head>
+<body>
+    <div class="container">
+        <input readonly type="text" name="" id="inp">
+        <div class="btns">
+            <div>
+            <button onclick="clr()">CL</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="clck('%')">%</button>
+            <button onclick="clck('/')">/</button>
+            </div>
+            <div>
+            <button onclick="clck(7)">7</button>
+            <button onclick="clck(8)">8</button>
+            <button onclick="clck(9)">9</button>
+            <button onclick="clck('*')">x</button>
+            </div>
+            <div>
+            <button onclick="clck(4)">4</button>
+            <button onclick="clck(5)">5</button>
+            <button onclick="clck(6)">6</button>
+            <button onclick="clck('-')">-</button>
+            </div>
+            <div>
+            <button onclick="clck(1)">1</button>
+            <button onclick="clck(2)">2</button>
+            <button onclick="clck(3)">3</button>
+            <button onclick="clck('+')">+</button>
+            </div>
+            <div>
+            <button onclick="clck('.')">.</button>
+            <button onclick="clck(0)">0</button>
+            <button onclick="clck('00')">00</button>
+            <button onclick="eq()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
